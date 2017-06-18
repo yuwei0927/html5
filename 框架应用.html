@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>框架应用</title>
+ </head>
+<!-- 使用框架的时候不需要Body
+  <frameset cols="30%,50%,*" border="15">
+    <frame src="http://www.baidu.com" noresize>
+	<frame src="http://www.hao123.com" scrolling="no"> 
+	<frame src="http://www.sina.com.cn"> 
+  </frameset>
+-->
+
+<frameset rows="5%,*">
+  <frame src="top.html" />
+  <frameset cols="10%,*"=>
+    <frame src="left.html">
+	<frame src="main.html" name="main">
+  </frameset>
+</frameset>
+
+</html>
